@@ -1,6 +1,4 @@
 # OhioVoter
-Full Ohio Voter Registration Data, updated weekly
-A history going back to June 27, 2015 is available for users who wish to look for changes in registration information.
+A Python program to automatically download Ohio Voter files from the Secretery of State website. These files will be automatically unziped and merged into a single CSV file (about 2 GB in size).
 
-Voter registration records are updated every Sunday at http://www2.sos.state.oh.us/pls/voter/f?p=111:1
-This repo is currently maintained by hand, so there may be some lag between the state posting and updates here
+The long term goal of this project is to create a suite of tools to collect and analyze election data.
