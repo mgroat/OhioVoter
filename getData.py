@@ -1,3 +1,7 @@
+"""
+Designed for Python 3.5.0
+"""
+
 import datetime, zipfile, os
 from urllib.request import urlopen
 fileString = "./votefiles/STATEWIDE "+ str(datetime.date.today())
